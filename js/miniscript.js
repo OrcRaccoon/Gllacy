@@ -1,2 +1,0 @@
-var link=document.querySelector(".feedback-form-btn"),popup=document.querySelector(".feedback-modal-wrapper"),close=popup.querySelector(".close")
-link.addEventListener("click",function(e){e.preventDefault(),popup.classList.add("feedback-modal-wrapper-show")}),close.addEventListener("click",function(e){e.preventDefault(),popup.classList.remove("feedback-modal-wrapper-show")}),window.addEventListener("keydown",function(e){27===e.keyCode&&popup.classList.contains("feedback-modal-wrapper-show")&&popup.classList.remove("feedback-modal-wrapper-show")})
