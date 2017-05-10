@@ -1108,6 +1108,10 @@ body .slider-input {
 	position: relative;
 	z-index: 92;
 }
+.catalog-item-index {
+	z-index: 9999!important;
+
+}
 .catalog-item-img {
 	position: relative;
 	z-index: 8;
